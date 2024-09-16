@@ -1,1 +1,6 @@
-<template>signed up</template>
+<template>signed in</template>
+<script setup>
+definePageMeta({
+  layout: "auth",
+});
+</script>
