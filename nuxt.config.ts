@@ -6,5 +6,16 @@ export default defineNuxtConfig({
     preference: "light",
   },
 
-  modules: ["@nuxt/ui"],
+  modules: ["@nuxt/ui", "@nuxt/image", "@nuxt/fonts"],
+
+  fonts: {
+    families: [
+      { name: 'Lexend', provider: 'google' },
+      { name: 'Red Hat Display', provider: 'google' },
+    ],
+    default: {},
+    experimental: {
+      processCSSVariables: true
+    }
+  },
 });

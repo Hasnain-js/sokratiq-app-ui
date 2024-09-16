@@ -10,5 +10,14 @@
     ["ui:\\s*{([^)]*)\\s*}", "[\"'`]([^\"'`]*).*?[\"'`]"],
     ["/\\*\\s?ui\\s?\\*/\\s*{([^;]*)}", ":\\s*[\"'`]([^\"'`]*).*?[\"'`]"]
   ],
-  "tailwindCSS.classAttributes": ["class", "className", "ngClass", "ui"]
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "ui"
+  ],
+  "cSpell.words": [
+    "Lexend",
+    "Soktratiq"
+  ]
 }
