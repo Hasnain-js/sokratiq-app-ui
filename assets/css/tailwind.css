@@ -9,3 +9,8 @@
 .font-Lexend {
     font-family: "Lexend";
 }
+
+@layer {
+.border-color-default {
+    @apply border-[rgba(108_130_176_0.1)]
+}}

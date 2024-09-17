@@ -8,7 +8,7 @@
         width="126"
         height="30"
       />
-      <h1 class="font-bold text-2xl" v-else>{{ pageName }}</h1>
+      <h2 class="font-bold text-2xl" v-else>{{ pageName }}</h2>
       <div class="flex items-center gap-2">
         <img src="@/assets/icons/user.svg" />
         <p>{{ user.email }}</p>
